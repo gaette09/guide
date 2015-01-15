@@ -10,8 +10,6 @@ Guide
 
 License : [Apache 2.0 license](http://www.apache.org/licenses/)
 
-e-mail : [loveoops@corp.auction.co.kr](loveoops@corp.auction.co.kr)
-
 Author : Chung jihwan
 
 
