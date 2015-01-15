@@ -6,7 +6,7 @@ Guide
 
 저장소의 자료는 계속적으로, 그리고 수시로 수정 및 업데이트 됩니다.
 
-각 폴더의 자세한 내용은 폴더안에 `README.MD`를 참고하시면 됩니다.
+각 폴더의 자세한 내용은 폴더안에 `README.md`를 참고하시면 됩니다.
 
 License : [Apache 2.0 license](http://www.apache.org/licenses/)
 
