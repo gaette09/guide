@@ -49,7 +49,7 @@ CMTool의 모바일 부분에서 HTML을 선택하고 추가 버튼을 누른다
 
 ### HTML 소스 추가
 
-`iframe` 영역이 한 개 일때
+#### `iframe` 영역이 한 개 일때
 
 ```
 <style>
@@ -61,6 +61,26 @@ CMTool의 모바일 부분에서 HTML을 선택하고 추가 버튼을 누른다
     <iframe src="쿠폰경로" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
 </div>
 ```
+
+#### `iframe` 영역이 두 개 일때
+
+```
+<style>
+    *{padding: 0; margin:0; border: 0;}
+    #cdIncCoupon{position:relative; width:100%;}
+    #cdIncCoupon li{list-style:none;}
+    #cdIncCoupon img{vertical-align: top; width: 100%;}
+    #cdIncCoupon ul{width: 100%;}
+    #cdIncCoupon ul li{float:left;width:50%;}
+</style>
+<div id="cdIncCoupon">
+    <ul>
+        <li><iframe src="http://eventv2.auction.co.kr/event3/EventPlatform/mApply.aspx?evno=07A91951259484" width="100%" height="100%" frameborder="0" scrolling="no"></iframe></li>
+        <li><iframe src="http://eventv2.auction.co.kr/event3/EventPlatform/mApply.aspx?evno=07A91951259484" width="100%" height="100%" frameborder="0" scrolling="no"></iframe></li>
+    </ul>
+</div>
+```
+
 
 
 
