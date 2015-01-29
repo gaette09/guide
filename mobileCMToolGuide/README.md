@@ -9,6 +9,71 @@
 
 
 
+### 개발 HTML, 쿠폰 리워드 HTML
+
+개발에 보낼 html파일
+
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		.couponDev img{border:0;width:100%;vertical-align:top;}
+	</style>
+	<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/04D25F0304/jquery.js"></script>
+</head>
+<body>
+	<div class="couponDev">
+		<a href="#" target="_parent"><img src="이미지 절대 경로" alt="" /></a>
+	</div>
+	<script type="text/javascript">
+		document.domain="auction.co.kr";
+		(function ( window, document, undefined ) {
+			'use strict';
+			var frameElement = window.frameElement,
+				addEvent = (function () {
+					if ( window.addEventListener ) {
+						return function ( element, type, listener ) {
+							element.addEventListener( type, listener, false );
+						};
+					} else if ( window.attachEvent ) {
+						return function ( element, type, listener ) {
+							element.attachEvent( 'on' + type, function () {
+								listener.call( element );
+							});
+						};
+					}
+				}());
+			function resizeFrame() {
+				if ( frameElement ) {
+					frameElement.style.height = document.body.offsetHeight + 'px';
+				}
+			}
+			window.jumpToTopElement = function (hash) {
+				window.top.location.hash = hash;
+			}
+			addEvent( window, 'load', function () {
+				resizeFrame();
+			});
+			addEvent( window, 'resize', function () {
+				resizeFrame();
+			});
+		}( this, this.document ));
+	</script>
+</body>
+</html>
+```
+
+
+쿠폰 리워드 등록시 HTML 소스
+
+```
+<a href="#" target="_parent"><img src="이미지 절대 경로" alt="" /></a>
+```
 
 
 
