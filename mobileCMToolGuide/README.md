@@ -52,10 +52,10 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
 ```
 <style>
     *{padding: 0; margin:0; border: 0;}
-    #cdIncCoupon{position:relative; width:100%;}
-    #cdIncCoupon img{vertical-align: top; width: 100%;}
+    #cdIncCoupon1{position:relative; width:100%;line-height:0}
+    #cdIncCoupon1 img{vertical-align: top; width: 100%;}
 </style>
-<div id="cdIncCoupon">
+<div id="cdIncCoupon1">
     <iframe src="쿠폰경로" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
 </div>
 ```
@@ -65,13 +65,12 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
 ```
 <style>
     *{padding: 0; margin:0; border: 0;}
-    #cdIncCoupon{position:relative; width:100%;}
-    #cdIncCoupon li{list-style:none;}
-    #cdIncCoupon img{vertical-align: top; width: 100%;}
-    #cdIncCoupon ul{width: 100%;}
-    #cdIncCoupon ul li{float:left;width:50%;}
+    #cdIncCoupon2{position:relative; width:100%;line-height:0}
+    #cdIncCoupon2 img{vertical-align: top; width: 100%;}
+    #cdIncCoupon2 ul{width: 100%;}
+    #cdIncCoupon2 ul li{float:left;width:50%;list-style:none;}
 </style>
-<div id="cdIncCoupon">
+<div id="cdIncCoupon2">
     <ul>
         <li><iframe src="쿠폰경로" width="100%" height="100%" frameborder="0" scrolling="no"></iframe></li>
         <li><iframe src="쿠폰경로" width="100%" height="100%" frameborder="0" scrolling="no"></iframe></li>
