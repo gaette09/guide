@@ -71,7 +71,7 @@
 
 쿠폰 리워드 등록시 HTML 소스
 
-```
+```html
 <a href="#" target="_parent"><img src="이미지 절대 경로" alt="" /></a>
 ```
 
@@ -114,7 +114,7 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
 
 `iframe` 영역이 한 개 일때
 
-```
+```html
 <style>
     *{padding: 0; margin:0; border: 0;}
     #cdIncCoupon1{position:relative; width:100%;line-height:0}
@@ -127,7 +127,7 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
 
 `iframe` 영역이 두 개 일때
 
-```
+```html
 <style>
     *{padding: 0; margin:0; border: 0;}
     #cdIncCoupon2{position:relative; width:100%;line-height:0}
