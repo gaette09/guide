@@ -134,7 +134,7 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
     *{padding: 0; margin:0; border: 0;}
     #cdIncCoupon2{position:relative; width:100%;line-height:0}
     #cdIncCoupon2 img{vertical-align: top; width: 100%;}
-    #cdIncCoupon2 ul{width: 100%;}
+    #cdIncCoupon2 ul{width: 100%;overflow:hidden;}
     #cdIncCoupon2 ul li{float:left;width:50%;list-style:none;}
 </style>
 ```
