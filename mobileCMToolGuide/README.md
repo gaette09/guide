@@ -114,12 +114,14 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
 
 `iframe` 영역이 한 개 일때
 
-```html
+```css
 <style>
     *{padding: 0; margin:0; border: 0;}
     #cdIncCoupon1{position:relative; width:100%;line-height:0}
     #cdIncCoupon1 img{vertical-align: top; width: 100%;}
 </style>
+```
+```html
 <div id="cdIncCoupon1">
     <iframe src="쿠폰경로" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
 </div>
@@ -127,7 +129,7 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
 
 `iframe` 영역이 두 개 일때
 
-```html
+```css
 <style>
     *{padding: 0; margin:0; border: 0;}
     #cdIncCoupon2{position:relative; width:100%;line-height:0}
@@ -135,6 +137,8 @@ CMTool의 모바일 부분에서 `HTML`을 선택하고 `추가` 버튼을 누�
     #cdIncCoupon2 ul{width: 100%;}
     #cdIncCoupon2 ul li{float:left;width:50%;list-style:none;}
 </style>
+```
+```html
 <div id="cdIncCoupon2">
     <ul>
         <li><iframe src="쿠폰경로" width="100%" height="100%" frameborder="0" scrolling="no"></iframe></li>
