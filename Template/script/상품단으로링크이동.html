@@ -1,0 +1,32 @@
+<script type="text/javascript">
+	//일반 하단 링크 연동
+	function categoryLinkPos(num){
+		var iElmPos1 = $("#ifrmItemList").offset().top;
+		var iElmPos2 = $("#ifrmItemList").contents().find("#lblListing").contents("a").eq(num-1).offset().top;
+
+		aboveHeight = $(window).scrollTop();
+
+		if(aboveHeight <= 90){
+			$('html, body').stop().animate({ scrollTop: iElmPos1+iElmPos2-90 }, "slow");
+		} else {
+			$('html, body').stop().animate({ scrollTop: iElmPos1+iElmPos2-45 }, "slow");
+		}
+	}
+
+
+	//모바일 하단 링크 연동
+	function categoryLinkPos(num){
+		
+		var iElmPos = $('.title-text').eq(num-1).offset().top;
+
+		$('html, body').stop().animate({ scrollTop: iElmPos }, "slow");
+	}
+</script>
+
+<div>
+	<ul>
+		<li><a href="#" onclick="categoryLinkPos(1);return false;">메뉴1</a></li>
+		<li><a href="#" onclick="categoryLinkPos(2);return false;">메뉴2</a></li>
+		<li><a href="#" onclick="categoryLinkPos(3);return false;">메뉴3</a></li>
+	</ul>
+</div>

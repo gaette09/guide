@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr">
+	<title>옥션 - 모바일 쇼핑은 옥션</title>
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no" />
+	<meta http-equiv="cleartype" content="on"/>
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		li{list-style:none;}
+
+		#p_wrapper{}
+		#p_wrapper img{width:100%;vertical-align:top;}
+
+		#p_navi{margin-bottom:-1.3%;z-index:10;position:relative;}
+		#p_navi ul{overflow:hidden;}
+		#p_navi ul li{width:50%;float:left;}
+
+		#p_wrapper .p_btn_view{width:100%;text-align:center;padding-bottom:10%;}
+		#p_wrapper .p_btn_view img{width:50%;}
+
+		.p_brand_area{text-align:center;padding-bottom:2%;}
+		.p_brand_area p{margin-bottom:-2%;}
+
+		#p_tab_day{background:#e30711;}
+		#p_tab_day ul{overflow:hidden;}
+		#p_tab_day ul li{width:33.3%;float:left;}
+
+		#p_banner_list{overflow:hidden;padding:1% 0;}
+		#p_banner_list li{float:left;width:50%;}
+	</style>
+	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+	<script type="text/javascript">
+	<!--
+		function dayTabMenu(num){
+			// 이미지 활성화
+			$("#p_tab_day li").each(function(i){
+				$("#p_tab_day li:eq("+i+") a img").attr("src", $("#p_tab_day li:eq("+i+") a img").attr("src").replace("_on.jpg", "_off.jpg"));
+			});
+			$("#p_tab_day li:eq("+(num-1)+") a").find("img").attr("src",$("#p_tab_day li:eq("+(num-1)+") a").find("img").attr("src").replace("_off.jpg", "_on.jpg"));
+
+			$(".p_brand_area").hide();
+			$("#p_day0"+num).show();
+		}
+	//-->
+	</script>
+</head>
+<body>
+
+	<div id="p_wrapper">
+		<div id="p_header">
+			<p><img src="images/m_top.jpg" alt="" /></p>
+		</div>
+		<div id="p_navi">
+			<ul>
+				<li><a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=07CEEEFDD1"><img src="images/m_navi01_off.png" alt="" /></a></li>
+				<li><img src="images/m_navi02_on.png" alt="" /></li>
+			</ul>
+		</div>
+
+		<div id="p_section01">
+			<h3><img src="images/m_cnt_tit1.jpg" alt="" /></h3>
+			<p><img src="images/m_cnt_img01.jpg" alt="" /></p>
+			<div class="p_btn_view">
+				<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=01D3A455E0" target="_parent"><img src="images/m_btn_cnt_view.png" alt="" /></a>
+			</div>
+
+			<p><img src="images/m_cnt_img02.jpg" alt="" /></p>
+			<div class="p_btn_view">
+				<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=01D3A455E0" target="_parent"><img src="images/m_btn_cnt_view.png" alt="" /></a>
+			</div>
+
+			<p><img src="images/m_cnt_img03.jpg" alt="" /></p>
+			<div class="p_btn_view">
+				<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=01D3A455E0" target="_parent"><img src="images/m_btn_cnt_view.png" alt="" /></a>
+			</div>
+		</div>
+
+		<div id="p_section02">
+			<h3><img src="images/m_cnt_tit2.jpg" alt="" /></h3>
+			<div id="p_tab_day">
+				<ul>
+					<li><a href="javascript:dayTabMenu(1);"><img src="images/m_tab_day01_off.jpg" alt="" /></a></li>
+					<li><a href="javascript:dayTabMenu(2);"><img src="images/m_tab_day02_off.jpg" alt="" /></a></li>
+					<li><a href="javascript:dayTabMenu(3);"><img src="images/m_tab_day03_off.jpg" alt="" /></a></li>
+				</ul>
+			</div>
+			<div id="p_day01" class="p_brand_area">
+				<p><img src="images/m_tit_day01.jpg" alt="" /></p>
+				<iframe src="http://eventv2.auction.co.kr/event3/2015/04/27/10976_FirstDayIsAuctionH/MobileItemList.aspx?eId=3038" frameborder="0" width="100%" height="100%" scrolling="no" allowtransparency="true"></iframe>
+			</div>
+			<div id="p_day02" class="p_brand_area">
+				<p><img src="images/m_tit_day02.jpg" alt="" /></p>
+				<iframe src="http://eventv2.auction.co.kr/event3/2015/04/27/10976_FirstDayIsAuctionH/MobileItemList.aspx?eId=3039" frameborder="0" width="100%" height="100%" scrolling="no" allowtransparency="true"></iframe>
+			</div>
+			<div id="p_day03" class="p_brand_area">
+				<p><img src="images/m_tit_day03.jpg" alt="" /></p>
+				<iframe src="http://eventv2.auction.co.kr/event3/2015/04/27/10976_FirstDayIsAuctionH/MobileItemList.aspx?eId=3040" frameborder="0" width="100%" height="100%" scrolling="no" allowtransparency="true"></iframe>
+			</div>
+		</div>
+
+		<div id="p_section03">
+			<h3><img src="images/m_cnt_tit3.jpg" alt="" /></h3>
+			<p><img src="images/m_cnt_coupon01.jpg" alt="" /></p>
+			<p><img src="images/m_cnt_coupon02.jpg" alt="" /></p>
+			<div class="p_btn_view">
+				<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=01D3A455E0" target="_parent"><img src="images/m_btn_cnt_coupon.png" alt="" /></a>
+			</div>
+
+			<p><img src="images/m_cnt_coupon03.jpg" alt="" /></p>
+			<div class="p_btn_view">
+				<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=01D3A455E0" target="_parent"><img src="images/m_btn_cnt_coupon.png" alt="" /></a>
+			</div>
+		</div>
+
+		<div id="p_section04">
+			<h3><img src="images/m_cnt_tit4.jpg" alt="" /></h3>
+			<ul id="p_banner_list">
+				<li>
+					<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=07C7A1BBD1" target="_parent"><img src="images/m_cnt_banner01.jpg" alt="" /></a>
+				</li>
+				<li>
+					<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtMD=07CF7FBEE5" target="_parent"><img src="images/m_cnt_banner02.jpg" alt="" /></a>
+				</li>
+				<li>
+					<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtmd=07CFD517FF" target="_parent"><img src="images/m_cnt_banner03.jpg" alt="" /></a>
+				</li>
+				<li>
+					<a href="http://promotion.auction.co.kr/promotion/mobile/eventview.aspx?txtmd=07d458d33b" target="_parent"><img src="images/m_cnt_banner04.jpg" alt="" /></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var result = Math.floor(Math.random() * 3) + 1;
+		dayTabMenu(result);
+	</script>
+
+</body>
+</html>

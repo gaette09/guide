@@ -1,0 +1,21 @@
+<script type="text/javascript">
+	function layerToggle(layer, btn) {
+		var layerId = document.getElementById(layer);
+		var btnId = document.getElementById(btn);
+
+		if (layerId.style.display=='none'){
+			layerId.style.display = "";
+			btnId.src = btnId.src.replace("_open.png", "_close.png");
+		}else{
+			layerId.style.display = "none";
+			btnId.src = btnId.src.replace("_close.png", "_open.png");
+		}
+	}
+</script>
+<div class="p_btn_notice01">
+	<a href="#" onclick="layerToggle('p_notice01','p_btn_notice01');return false;"><img src="http://eventimg.auction.co.kr/md/auction/07E5B575B0/btn_notice01_open.png" id="p_btn_notice01" alt="" /></a>
+</div>
+
+<div id="p_notice01" class="p_coupon_notice" style="display:none;">
+	<img src="http://eventimg.auction.co.kr/md/auction/07E5B575B0/item_coupon_notice_01.jpg" alt="" />
+</div>

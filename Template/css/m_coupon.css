@@ -1,0 +1,15 @@
+@charset "euc-kr";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+*{margin:0;padding:0;}
+html{font-family:Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD »êµ¹°íµñ Neo', Apple-Gothic, '¾ÖÇÃ°íµñ', 'Tahoma', 'dotum', 'µ¸¿ò', 'gulim', '±¼¸²', sans-serif;}
+
+li{list-style: none;}
+img{vertical-align:top;}
+
+
+#coupon_area{text-align:center;}
+#coupon_area .value{line-height:100%;font-weight:bold;}
+#coupon_area .value strong{font-family: 'Roboto', sans-serif;font-weight:700;color:#fd5552;}
+#coupon_area .btn{width:100%;text-align:center;margin-top:5%;}
+#coupon_area .btn img{width:100%;}

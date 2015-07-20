@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+	<title>옥션 - 모바일 쇼핑은 옥션</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<style type="text/css">
+		@charset "euc-kr";
+		@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
+		*{margin:0;padding:0;}
+		html{font-family:"맑은 고딕", Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD 산돌고딕 Neo', Apple-Gothic, '애플고딕', 'Tahoma', 'dotum', '돋움', 'gulim', '굴림', sans-serif;}
+		a{border:0;text-decoration:none;}
+		body{background:transparent;}
+
+		li{list-style:none;}
+		img{border:0;vertical-align:top;}
+
+		#p_banner_wrap{border-top:3px #545454 solid;border-bottom:3px #545454 solid;width:980px;position:relative;overflow:hidden;}
+		#p_banner_wrap #p_banner_img{width:100%;height:367px;position:relative;overflow:hidden;}
+		#p_banner_wrap #p_banner_img ul{position:absolute;top:0;left:0;}
+		#p_banner_wrap #p_banner_img ul li{position:absolute;top:0;left:0;z-index:1;}
+
+		#p_banner_wrap #p_banner_navi{width:164px;position:absolute;top:0;right:0;z-index:10;border-left:1px #c5c5c5 solid;}
+		#p_banner_wrap #p_banner_navi ul{width:244px;height:367px;overflow:hidden;}
+		#p_banner_wrap #p_banner_navi ul li{border-bottom:1px #909090 solid;height:91px;background:#e6e6e6;}
+		#p_banner_wrap #p_banner_navi ul li a{cursor:pointer;border-left:1px #fff solid;border-top:1px #fff solid;display:block;}
+		#p_banner_wrap #p_banner_navi ul li.selected{background:#fff;}
+	</style>
+	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+	<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/07C0B575AE/resizeFrame.js"></script>
+	<script type="text/javascript">
+		function namesController() {
+			var banner = [
+				[
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/brand_menu01.png',
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/@banner_img.jpg',
+					'http://www.naver.com'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/brand_menu02.png',
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/@banner_img.jpg',
+					'http://www.naver.com'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/brand_menu03.png',
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/@banner_img.jpg',
+					'http://www.naver.com'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/brand_menu04.png',
+					'http://eventimg.auction.co.kr/md/auction/07E5B575B0/@banner_img.jpg',
+					'http://www.naver.com'
+				]
+			];
+
+			function shuffle(array) {
+				var currentIndex = array.length, temporaryValue, randomIndex ;
+
+				while (0 !== currentIndex) {
+					randomIndex = Math.floor(Math.random() * currentIndex);
+					currentIndex -= 1;
+
+					temporaryValue = array[currentIndex];
+					array[currentIndex] = array[randomIndex];
+					array[randomIndex] = temporaryValue;
+				}
+
+				return array;
+			}
+
+			shuffle(banner);
+
+			totalNum = banner.length-1;
+	
+			if (totalNum == -1){
+				
+			} else {
+				for(i=0; i<=totalNum; i++){
+					$("#p_banner_navi ul").append('<li><a href="'+banner[i][2]+'" target="_blank"><img src="'+banner[i][0]+'" alt="" /></a></li>');
+					$("#p_banner_img ul").append(
+						'<li>'+
+							'<div class="bannerImg">'+
+								'<a href="'+banner[i][2]+'" target="_blank">'+
+									'<img src="'+banner[i][1]+'" alt="" />'+
+								'</a>'+
+							'</div>'+
+						'</li>'
+					);
+				}
+			}
+		}
+
+
+		// 롤링 이벤트
+		function rollingEvent(){
+			if (rNum >= 3){
+				rNum = 0;
+			} else{
+				rNum++;
+			}
+
+			$("#p_banner_navi ul li").removeClass("selected");
+			$("#p_banner_navi ul li").eq(rNum).addClass("selected");
+
+			$("#p_banner_img ul li").fadeOut("slow");
+			$("#p_banner_img ul li").eq(rNum).stop(true, true).fadeIn("slow");
+		}
+
+		window.onload = function(){
+			rNum = $("#p_banner_navi ul li.selected").index()+1;
+
+			namesController();
+
+			$("#p_banner_img ul li").hide();
+			$("#p_banner_img ul li").eq(0).css("z-index","2").show();
+			$("#p_banner_navi ul li").eq(0).addClass("selected");
+
+			$("#p_banner_navi ul li a").hover(function(){
+				rNum = $(this).parent('li').index();
+
+				if ($(this).parent('li').hasClass("selected") == true){
+
+				} else{
+					$("#p_banner_navi ul li").removeClass("selected");
+					$(this).parent('li').addClass("selected");
+
+					$("#p_banner_img ul li").fadeOut("slow");
+					$("#p_banner_img ul li").eq(rNum).stop(true, true).fadeIn("slow");
+				}
+			},function(){
+				
+			});
+
+			startEvent = setInterval(rollingEvent, 5000);
+
+			/* 오버시 롤링 정지 */
+			$("#p_banner_wrap").mouseover(function(){
+				clearInterval(startEvent);
+			});
+			/* 아웃시 롤링 재시작 */
+			$("#p_banner_wrap").mouseout(function(){
+				startEvent = setInterval(rollingEvent, 5000)
+			});
+		}
+	</script>
+</head>
+<body>
+
+	<div id="p_banner_wrap">
+		<div id="p_banner_navi">
+			<ul></ul>
+		</div>
+		<div id="p_banner_img">
+			<ul></ul>
+		</div>
+	</div>
+
+</body>
+</html>

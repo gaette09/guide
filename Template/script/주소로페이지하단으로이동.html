@@ -1,0 +1,49 @@
+<!-- desktop -->
+<script type="text/javascript">
+	window.onload = function(){
+		var address = location.href;
+		var param;
+		
+		if (address.indexOf("&lol=")!=-1){
+			
+			param = address.substring(address.indexOf("&lol=", 1) + 5);
+			//console.log(param);
+
+			if ( param == 1 ){
+				var iElmPos1 = $("#smartArea").offset().top;
+				aboveHeight = $(window).scrollTop();
+
+				if(aboveHeight <= 90){
+					$('html, body').stop().animate({ scrollTop: iElmPos1-90 }, "slow");
+				} else {
+					$('html, body').stop().animate({ scrollTop: iElmPos1-45 }, "slow");
+				}
+			}
+		}
+	}
+</script>
+
+
+
+<!-- mobile -->
+<script type="text/javascript">
+	window.onload = function(){
+		var address = location.href;
+		var param;
+		
+		if (address.indexOf("&lol=")!=-1){
+			
+			param = address.substring(address.indexOf("&lol=", 1) + 5);
+			//console.log(param);
+
+			if ( param == 1 ){
+				var iElmPos1 = $("#smartArea").offset().top;
+				$('html, body').stop().animate({ scrollTop: iElmPos1 }, "slow");
+			}
+		}
+	}
+</script>
+
+
+
+<div id="smartArea"></div>

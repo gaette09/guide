@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+	<title>옥션 - 모바일 쇼핑은 옥션</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" type="text/css" href="../../css/goods.css" />
+	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+	<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/07C0B575AE/resizeFrame.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#brand_goods01").show();
+
+			$("#p_brand_tab ul li span").mouseover(function(){
+
+				// 이미지 활성화
+				$("#p_brand_tab ul li").each(function(i){
+					$("#p_brand_tab ul li:eq("+i+") span img").attr("src", $("#p_brand_tab ul li:eq("+i+") span img").attr("src").replace("_on.png", "_off.png"));
+				});
+				$(this).find("img").attr("src",$(this).find("img").attr("src").replace("_off.png", "_on.png"));
+
+				var nvElOn = $(this).parent("li").index();
+
+				// 상품 활성화
+				var goodsId = $(this).attr("href");
+				$(".goods_list").hide();
+				$(goodsId).show();
+			});
+		})
+	</script>
+</head>
+<body>
+
+	<h3>폰트 - Montserrat</h3>
+	<div id="p_tab_goods" style="background:url(http://eventimg.auction.co.kr/md/auction/05DD56B1B8/0526_bg_tab_goods.png) left top no-repeat;">
+		<div id="p_brand_tab">
+			<ul>
+				<li><span href="#brand_goods01"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/0526_tab_brand01_on.png" alt="" /></span></li>
+				<li><span href="#brand_goods02"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/0526_tab_brand02_off.png" alt="" /></span></li>
+				<li><span href="#brand_goods03"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/0526_tab_brand03_off.png" alt="" /></span></li>
+			</ul>
+		</div>
+		<div id="p_brand_goods">
+			<div class="goods_list" id="brand_goods01">
+				<ul>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>116,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>116,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>116,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>116,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="goods_list" id="brand_goods02">
+				<ul>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>216,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>216,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>216,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>116,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="goods_list" id="brand_goods03">
+				<ul>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>316,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>316,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>316,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+					<li>
+						<div class="goods_img">
+							<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/05DD56B1B8/@goodscode.jpg" alt="" /></a>
+						</div>
+						<div class="goods_price">
+							<del>316,100</del>
+							<strong>99,000</strong>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

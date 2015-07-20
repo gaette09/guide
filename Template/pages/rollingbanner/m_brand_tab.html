@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr">
+	<title>옥션 - 모바일 쇼핑은 옥션</title>
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no" />
+	<meta http-equiv="cleartype" content="on"/>
+	<link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/07071E4A79/mobile.css?ver=1.3">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/07071E4A79/swiper.min.css">
+	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+	<script src="http://eventimg.auction.co.kr/md/auction/07071E4A79/swiper.min.js?ver=1.0"></script>
+	<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/07C0B575AE/resizeFrame.js"></script>
+	<script type="text/javascript">
+		function namesController() {
+			var banner = [
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu01.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner01.jpg',
+					'bannerMap1',
+					'#baned_name1'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu02.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner02.jpg',
+					'bannerMap2',
+					'#baned_name1'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu03.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner03.jpg',
+					'bannerMap3',
+					'#baned_name1'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu04.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner04.jpg',
+					'bannerMap4',
+					'#baned_name1'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu05.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner05.jpg',
+					'bannerMap5',
+					'#baned_name1'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu06.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner06.jpg',
+					'bannerMap6',
+					'#baned_name1'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu07.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner07.jpg',
+					'bannerMap7',
+					'#baned_name1'
+				],
+				[
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_brand_menu08.png',
+					'http://eventimg.auction.co.kr/md/auction/07071E4A79/m_vis_banner08.jpg',
+					'bannerMap8',
+					'#baned_name1'
+				]
+			];
+
+			function shuffle(array) {
+				var currentIndex = array.length, temporaryValue, randomIndex ;
+
+				// While there remain elements to shuffle...
+				while (0 !== currentIndex) {
+					// Pick a remaining element...
+					randomIndex = Math.floor(Math.random() * currentIndex);
+					currentIndex -= 1;
+
+					// And swap it with the current element.
+					temporaryValue = array[currentIndex];
+					array[currentIndex] = array[randomIndex];
+					array[randomIndex] = temporaryValue;
+				}
+
+				return array;
+			}
+
+			shuffle(banner);
+
+			totalNum = banner.length-1;
+	
+			if (totalNum == -1){
+				
+			} else {
+				for(i=0; i<=totalNum; i++){
+					$("#p_brand_header ul.swiper-wrapper").append('<li class="swiper-slide"><span><img src="'+banner[i][0]+'" alt="" /></span></li>');
+					$("#p_brand_banner ul.swiper-wrapper").append(
+						'<li class="swiper-slide">'+
+							'<div class="bannerImg">'+
+								'<a href="#'+banner[i][2]+'">'+
+									'<img src="'+banner[i][1]+'" alt="" />'+
+								'</a>'+
+							'</div>'+
+						'</li>'
+					);
+				}
+			}
+		}
+
+		window.onload = function(){
+			namesController();
+			$("#p_brand_menu ul li").eq(0).addClass('selected');
+
+			var galleryTop = new Swiper('.gallery-top', {
+				pagination: '.swiper-pagination',
+				paginationClickable: '.swiper-pagination',
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				onSlideChangeStart: function(){
+					$("#p_brand_menu ul li").removeClass('selected');
+					$("#p_brand_menu ul li").eq(galleryTop.activeIndex).addClass('selected');
+					if (galleryTop.activeIndex < 4){
+						galleryThumbs.slideTo(0);
+					} else {
+						galleryThumbs.slideTo(4);
+					}
+				}
+			});
+
+			var galleryThumbs = new Swiper('.gallery-thumbs', {
+				slidesPerView: 4,
+				slideToClickedSlide: true,
+				touchRatio: 0.5
+			});
+
+			
+			$("#p_brand_menu ul li").click(function(){
+				var onClickIndex = $(this).index();
+				$("#p_brand_menu ul li").removeClass("selected");
+				$(this).addClass("selected");
+
+				galleryTop.slideTo(onClickIndex);
+			});
+		}
+	</script>
+</head>
+<body>
+
+	<div id="p_brand_wrap">
+		<div id="p_brand_header">
+			<div id="p_brand_menu" class="swiper-container gallery-thumbs">
+				<ul class="swiper-wrapper" style="margin-left:0px !important;">
+				</ul>
+			</div>
+		</div>
+		<div id="p_brand_banner" class="swiper-container gallery-top">
+			<ul class="swiper-wrapper"></ul>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+		</div>
+	</div>
+
+</body>
+</html>

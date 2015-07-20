@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr">
+	<title>옥션 - 모바일 쇼핑은 옥션</title>
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no" />
+	<meta http-equiv="cleartype" content="on"/>
+	<link rel="stylesheet" type="text/css" href="../../css/m_board.css" />
+	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+	<script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/07C0B575AE/qa_resizeContents.js"></script>
+	<script type="text/javascript">
+		function resizeContents() {
+			var incW = $('#board_list').width();
+
+			$('.table_list th').css({"fontSize":Math.floor(incW/36)});
+			$('.table_list td').css({"fontSize":Math.floor(incW/36)});
+			$('.table_list td.story').css({"fontSize":Math.floor(incW/30)});
+			$('#paging').css({"fontSize":Math.floor(incW/26)});
+		}
+	</script>
+</head>
+<body>
+
+	<div id="board_list">
+		<table class="table_list">
+			<colgroup>
+				<col width="22%" />
+				<col width="" />
+				<col width="20%" />
+			</colgroup>
+			<thead>
+				<tr>
+					<th>아이디</th>
+					<th>내용</th>
+					<th>날짜</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>kjkj58**</td>
+					<td class="subject">게시물 타입 샘플입니다.</td>
+					<td>15.05.13</td>
+				</tr>
+				<tr>
+					<td>kjkj58**</td>
+					<td class="subject">상단 타이틀 부분이 없을시 thead 영역을 제거 하시면 됩니다.</td>
+					<td>15.05.13</td>
+				</tr>
+				<tr>
+					<td>kjkj58**</td>
+					<td class="subject">1111111111111111111111111111111111111111111111111111111111111111111111111111</td>
+					<td>15.05.13</td>
+				</tr>
+				<tr>
+					<td>kjkj58**</td>
+					<td class="subject">\\192.168.71.27\Event_image\promotion\OB\developer\template\pages\board\board.html</td>
+					<td>15.05.13</td>
+				</tr>
+				<tr>
+					<td>kjkj58**</td>
+					<td class="subject">url이나 기타 띄어쓰기가 안되어 있는 텍스트의경우 텍스트의 사이즈에 따라 너비가 강제로 변경됩니다. word-break:break-all;을 사용하여 강제 변경을 막아주세요.</td>
+					<td>15.05.13</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div id="paging">
+			<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/07EA9DFD6B/btn_prev.png" alt="이전" /></a>
+			<span>
+				<a href="#" class="this">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#">7</a>
+				<a href="#">8</a>
+				<a href="#">9</a>
+			</span>
+			<a href="#"><img src="http://eventimg.auction.co.kr/md/auction/07EA9DFD6B/btn_next.png" alt="다음" /></a>
+		</div>
+	</div>
+
+</body>
+</html>
