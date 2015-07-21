@@ -1,4 +1,4 @@
-(function ( window, document, undefined ) {
+(function ( window, document ) {
 	'use strict';
 
 	var frameElement = window.frameElement,
@@ -25,7 +25,7 @@
 
 	window.jumpToTopElement = function (hash) {
 		window.top.location.hash = hash;
-	}
+	};
 
 	addEvent( window, 'load', function () {
 		resizeFrame();

@@ -1,4 +1,4 @@
-(function ( window, document, undefined ) {
+(function ( window, document ) {
 	document.domain="auction.co.kr";
 
 	'use strict';
@@ -27,7 +27,7 @@
 
 	window.jumpToTopElement = function (hash) {
 		window.top.location.hash = hash;
-	}
+	};
 
 	addEvent( window, 'load', function () {
 		resizeFrame();
