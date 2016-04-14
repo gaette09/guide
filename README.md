@@ -24,7 +24,7 @@ CMTool 모바일에서 개발 url 추가 하는 방법에 관한 가이드 입�
 `iframe` 2개 일 때 `HTML` 소스
 
 
-### [스와이프 배너](https://github.com/gaette09/guide/tree/master/mobileCMToolGuide)
+### [스와이프 배너](https://github.com/gaette09/guide/tree/master/mobileCMToolGuide/swiperBanner)
 
 
 
