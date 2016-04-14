@@ -13,7 +13,9 @@ License : [Apache 2.0 license](http://www.apache.org/licenses/)
 Author : Chung ji hwan
 
 
-### [mobileCMToolGuide](https://github.com/gaette09/guide/tree/master/mobileCMToolGuide)
+## mobileCMToolGuide
+
+### [아이프레임 넣는 방법 & 버튼 개발 전달 파일](https://github.com/gaette09/guide/tree/master/mobileCMToolGuide)
 
 CMTool 모바일에서 개발 url 추가 하는 방법에 관한 가이드 입니다
 
@@ -21,6 +23,8 @@ CMTool 모바일에서 개발 url 추가 하는 방법에 관한 가이드 입�
 
 `iframe` 2개 일 때 `HTML` 소스
 
-#free
+
+### [스와이프 배너](https://github.com/gaette09/guide/tree/master/mobileCMToolGuide)
+
 
 
