@@ -16,9 +16,8 @@
     | 캘린더[`Demo`](http://codepen.io/gaette09/pen/qZJrNo) [`download`](https://app.box.com/s/ebatpi9y20kpkan009l1syyozxitcwin)    |                                              |                                      |                                    |
 
 02. 쿠폰받기 탬플릿
-    | ![그림참고](Template/images/guide_w_goods_1.gif)                                                                             | ![그림참고](Template/images/guide_w_goods_2.gif) |
-    | 기본 [`Demo`](http://codepen.io/gaette09/pen/RaeRBy) [`download`](https://app.box.com/s/v5w3r4qm8xzt1ffonfuhhdqps4886zb0)    | 
-    | 남은수량 [`Demo`](http://codepen.io/gaette09/pen/RaeRBy) [`download`](https://app.box.com/s/v5w3r4qm8xzt1ffonfuhhdqps4886zb0)
+    기본 [`Demo`](http://codepen.io/gaette09/pen/RaeRBy) [`download`](https://app.box.com/s/v5w3r4qm8xzt1ffonfuhhdqps4886zb0)
+    남은수량 [`Demo`](http://codepen.io/gaette09/pen/RaeRBy) [`download`](https://app.box.com/s/v5w3r4qm8xzt1ffonfuhhdqps4886zb0)
 
 
 #### mobile template
