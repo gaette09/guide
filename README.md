@@ -1,7 +1,7 @@
 # Design Template Guide
 
     업무용 디자인 탬플릿 가이드 입니다
-    수시로 업데이트 됩니다 
+    수시로 업데이트 됩니다
 
 #### web template
 
@@ -17,17 +17,18 @@
 
 
 #### mobile template
- 
+
 01. 상품 탬플릿
- 
+
  	| ![그림참고](Template/images/guide_m_goods_1.gif)                                                                               | ![그림참고](Template/images/guide_m_goods_2.gif)
  	|:---------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
     | 1단형                                                                                                                        | 2단형                                         																					  | 3단형                                 																											         | 4단형                                          																				    		|
     | 기본 [`Demo`](http://codepen.io/jdk/pen/LNqdOP) [`download`](https://app.box.com/s/a8w06ol0tlc9lwae7vj06col0tguqs90)    | 기본  [`Demo`](http://codepen.io/jdk/pen/qZgoVe)  [`download`](https://app.box.com/s/xxitt5sd3at05z3hip2oe6voqu7wryi9)              |                                   |              |
     | 쿠폰적용가 [`Demo`](http://codepen.io/jdk/pen/PNVROW) [`download`](https://app.box.com/s/5v2ykvjv5jan7pfbe81x3y1xk2xfd7it)| 쿠폰적용가  [`Demo`](http://codepen.io/jdk/pen/grqeoL)  [`download`](https://app.box.com/s/5su9qcmrczh9bt4jf3yckq2wvlrul0z7)        |                                		|              |
     | 캘린더1[`Demo`](http://codepen.io/jdk/pen/KzJoyo) [`download`](https://app.box.com/s/zbgfbxr6wsr1tirnotnqgih2vzflvwan) 캘린더2[`Demo`](http://codepen.io/jdk/pen/rePdYQ) [`download`](https://app.box.com/s/ceywjiqqv0cozkufim6mhdfqcn9p5cj9)     |                                              |                                      |                                    |
-	
- 
+
+02. 쿠폰받기 탬플릿
+
 
 ### mobileCMToolGuide
 
@@ -42,7 +43,7 @@ CMTool 모바일에서 개발 url 추가 하는 방법에 관한 가이드 입�
 
 ### [스와이프 배너](https://github.com/gaette09/guide/tree/master/mobileCMToolGuide/swiperBanner)
 
-연관 기획전 2가지 버전, 스와이프 쿠폰, 스와이프 이미지 배너 총 4가지 
+연관 기획전 2가지 버전, 스와이프 쿠폰, 스와이프 이미지 배너 총 4가지
 
 
 
@@ -52,7 +53,3 @@ CMTool 모바일에서 개발 url 추가 하는 방법에 관한 가이드 입�
 License : [Apache 2.0 license](http://www.apache.org/licenses/)
 
 Author : Chung ji hwan
- 
-
-
-
