@@ -16,9 +16,10 @@
     | 캘린더[`Demo`](http://codepen.io/gaette09/pen/qZJrNo) [`download`](https://app.box.com/s/ebatpi9y20kpkan009l1syyozxitcwin)    |                                              |                                      |                                    |
 
 02. 쿠폰받기 탬플릿
-    기본 [`Demo`](http://codepen.io/gaette09/pen/RaeRBy) [`download`](https://app.box.com/s/v5w3r4qm8xzt1ffonfuhhdqps4886zb0)
-    
-    남은수량 [`Demo`](http://codepen.io/gaette09/pen/RaeRBy) [`download`](https://app.box.com/s/v5w3r4qm8xzt1ffonfuhhdqps4886zb0)
+
+    기본 [`Demo`](http://codepen.io/jdk/pen/Wwqwry) [`download`](https://app.box.com/s/iyj4cbubf3z6wuutd2aif15w4n3pbktq)
+
+    남은수량 [`Demo`](http://codepen.io/jdk/pen/qZzZZb) [`download`](https://app.box.com/s/w04hn4rg6j6b0d4nwiwndq7knverr67q)
 
 
 #### mobile template
@@ -32,7 +33,11 @@
     | 쿠폰적용가 [`Demo`](http://codepen.io/jdk/pen/PNVROW) [`download`](https://app.box.com/s/5v2ykvjv5jan7pfbe81x3y1xk2xfd7it)| 쿠폰적용가  [`Demo`](http://codepen.io/jdk/pen/grqeoL)  [`download`](https://app.box.com/s/5su9qcmrczh9bt4jf3yckq2wvlrul0z7)        |                                		|              |
     | 캘린더1[`Demo`](http://codepen.io/jdk/pen/KzJoyo) [`download`](https://app.box.com/s/zbgfbxr6wsr1tirnotnqgih2vzflvwan) 캘린더2[`Demo`](http://codepen.io/jdk/pen/rePdYQ) [`download`](https://app.box.com/s/ceywjiqqv0cozkufim6mhdfqcn9p5cj9)     |                                              |                                      |                                    |
 
+02. 쿠폰받기 탬플릿
 
+    기본 [`Demo`](http://codepen.io/jdk/pen/EKBKyx) [`download`](https://app.box.com/s/jr5mu79lgjxu3hh630ditz553v7vyhcd)
+
+    남은수량 [`Demo`](http://codepen.io/jdk/pen/yOdOJZ) [`download`](https://app.box.com/s/fhy3keqnmzu91ttnpuguisqp8jzt39wj)
 
 
 ### mobileCMToolGuide
