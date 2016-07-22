@@ -34,6 +34,7 @@ html 파일
 </div>
 
 <link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.css">
+<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
 <script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.jquery.min.js"></script>
 <script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.js"></script>
 <!-- template setting -->
@@ -135,6 +136,7 @@ html 파일
 </div>
 
 <link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.css">
+<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
 <script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.jquery.min.js"></script>
 <script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.js"></script>
 <!-- template setting -->
@@ -215,6 +217,8 @@ html 파일
 	<meta charset="euc-kr">
 	<title>옥션 - 모바일 쇼핑은 옥션</title>
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/>
+
+	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
 	<link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.css">
 	<script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.jquery.min.js"></script>
 	<script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.js"></script>
