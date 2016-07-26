@@ -134,7 +134,7 @@ html 파일
 	<div class="swiper-pagination"></div>
 </div>
 
-<link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.css">`
+<link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.css">
 <script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.jquery.min.js"></script>
 <script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.js"></script>
 <!-- template setting -->
