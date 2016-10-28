@@ -41,40 +41,40 @@ CMTOOL 하단 html
     <!-- 코드 -->
 	<img src="http://eventimg.auction.co.kr/md/Auction/090CA406B6/bar_01.jpg" alt="" usemap="#Map" border="0" />
     <map name="Map" id="Map">
-      <area shape="rect" coords="4,5,120,48"   href="javascript:parent.categoryLinkPos(2);" onfocus="this.blur();"/>
-      <area shape="rect" coords="123,4,243,49" href="javascript:parent.categoryLinkPos(3);" onfocus="this.blur();"/>
-      <area shape="rect" coords="247,4,363,48" href="javascript:parent.categoryLinkPos(4);" onfocus="this.blur();"/>
-      <area shape="rect" coords="368,4,485,49" href="javascript:parent.categoryLinkPos(5);" onfocus="this.blur();"/>
-      <area shape="rect" coords="492,5,607,48" href="javascript:parent.categoryLinkPos(6);" onfocus="this.blur();"/>
-      <area shape="rect" coords="612,5,729,49" href="javascript:parent.categoryLinkPos(7);" onfocus="this.blur();"/>
-      <area shape="rect" coords="734,6,850,47" href="javascript:parent.categoryLinkPos(8);" onfocus="this.blur();"/>
-      <area shape="rect" coords="856,6,978,47" href="javascript:parent.categoryLinkPos(9);" onfocus="this.blur();"/>
+      <area shape="rect" coords="4,5,120,48"   href="javascript:parent.categoryLinkPos(1);" onfocus="this.blur();"/>
+      <area shape="rect" coords="123,4,243,49" href="javascript:parent.categoryLinkPos(2);" onfocus="this.blur();"/>
+      <area shape="rect" coords="247,4,363,48" href="javascript:parent.categoryLinkPos(3);" onfocus="this.blur();"/>
+      <area shape="rect" coords="368,4,485,49" href="javascript:parent.categoryLinkPos(4);" onfocus="this.blur();"/>
+      <area shape="rect" coords="492,5,607,48" href="javascript:parent.categoryLinkPos(5);" onfocus="this.blur();"/>
+      <area shape="rect" coords="612,5,729,49" href="javascript:parent.categoryLinkPos(6);" onfocus="this.blur();"/>
+      <area shape="rect" coords="734,6,850,47" href="javascript:parent.categoryLinkPos(7);" onfocus="this.blur();"/>
+      <area shape="rect" coords="856,6,978,47" href="javascript:parent.categoryLinkPos(8);" onfocus="this.blur();"/>
     </map>
 
     <!-- 자켓 -->
 	<img src="http://eventimg.auction.co.kr/md/Auction/090CA406B6/bar_02.jpg" alt="" usemap="#Map" border="0" />
     <map name="Map" id="Map">
-      <area shape="rect" coords="4,5,120,48"   href="javascript:parent.categoryLinkPos(2);" onfocus="this.blur();"/>
-      <area shape="rect" coords="123,4,243,49" href="javascript:parent.categoryLinkPos(3);" onfocus="this.blur();"/>
-      <area shape="rect" coords="247,4,363,48" href="javascript:parent.categoryLinkPos(4);" onfocus="this.blur();"/>
-      <area shape="rect" coords="368,4,485,49" href="javascript:parent.categoryLinkPos(5);" onfocus="this.blur();"/>
-      <area shape="rect" coords="492,5,607,48" href="javascript:parent.categoryLinkPos(6);" onfocus="this.blur();"/>
-      <area shape="rect" coords="612,5,729,49" href="javascript:parent.categoryLinkPos(7);" onfocus="this.blur();"/>
-      <area shape="rect" coords="734,6,850,47" href="javascript:parent.categoryLinkPos(8);" onfocus="this.blur();"/>
-      <area shape="rect" coords="856,6,978,47" href="javascript:parent.categoryLinkPos(9);" onfocus="this.blur();"/>
+			<area shape="rect" coords="4,5,120,48"   href="javascript:parent.categoryLinkPos(1);" onfocus="this.blur();"/>
+      <area shape="rect" coords="123,4,243,49" href="javascript:parent.categoryLinkPos(2);" onfocus="this.blur();"/>
+      <area shape="rect" coords="247,4,363,48" href="javascript:parent.categoryLinkPos(3);" onfocus="this.blur();"/>
+      <area shape="rect" coords="368,4,485,49" href="javascript:parent.categoryLinkPos(4);" onfocus="this.blur();"/>
+      <area shape="rect" coords="492,5,607,48" href="javascript:parent.categoryLinkPos(5);" onfocus="this.blur();"/>
+      <area shape="rect" coords="612,5,729,49" href="javascript:parent.categoryLinkPos(6);" onfocus="this.blur();"/>
+      <area shape="rect" coords="734,6,850,47" href="javascript:parent.categoryLinkPos(7);" onfocus="this.blur();"/>
+      <area shape="rect" coords="856,6,978,47" href="javascript:parent.categoryLinkPos(8);" onfocus="this.blur();"/>
     </map>
 
     <!-- 점퍼 -->
 	<img src="http://eventimg.auction.co.kr/md/Auction/090CA406B6/bar_03.jpg" alt="" usemap="#Map" border="0" />
     <map name="Map" id="Map">
-      <area shape="rect" coords="4,5,120,48"   href="javascript:parent.categoryLinkPos(2);" onfocus="this.blur();"/>
-      <area shape="rect" coords="123,4,243,49" href="javascript:parent.categoryLinkPos(3);" onfocus="this.blur();"/>
-      <area shape="rect" coords="247,4,363,48" href="javascript:parent.categoryLinkPos(4);" onfocus="this.blur();"/>
-      <area shape="rect" coords="368,4,485,49" href="javascript:parent.categoryLinkPos(5);" onfocus="this.blur();"/>
-      <area shape="rect" coords="492,5,607,48" href="javascript:parent.categoryLinkPos(6);" onfocus="this.blur();"/>
-      <area shape="rect" coords="612,5,729,49" href="javascript:parent.categoryLinkPos(7);" onfocus="this.blur();"/>
-      <area shape="rect" coords="734,6,850,47" href="javascript:parent.categoryLinkPos(8);" onfocus="this.blur();"/>
-      <area shape="rect" coords="856,6,978,47" href="javascript:parent.categoryLinkPos(9);" onfocus="this.blur();"/>
+			<area shape="rect" coords="4,5,120,48"   href="javascript:parent.categoryLinkPos(1);" onfocus="this.blur();"/>
+      <area shape="rect" coords="123,4,243,49" href="javascript:parent.categoryLinkPos(2);" onfocus="this.blur();"/>
+      <area shape="rect" coords="247,4,363,48" href="javascript:parent.categoryLinkPos(3);" onfocus="this.blur();"/>
+      <area shape="rect" coords="368,4,485,49" href="javascript:parent.categoryLinkPos(4);" onfocus="this.blur();"/>
+      <area shape="rect" coords="492,5,607,48" href="javascript:parent.categoryLinkPos(5);" onfocus="this.blur();"/>
+      <area shape="rect" coords="612,5,729,49" href="javascript:parent.categoryLinkPos(6);" onfocus="this.blur();"/>
+      <area shape="rect" coords="734,6,850,47" href="javascript:parent.categoryLinkPos(7);" onfocus="this.blur();"/>
+      <area shape="rect" coords="856,6,978,47" href="javascript:parent.categoryLinkPos(8);" onfocus="this.blur();"/>
     </map>
 ```
 
